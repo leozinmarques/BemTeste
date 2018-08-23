@@ -9,14 +9,16 @@ import {Grid, Col, Row} from 'react-bootstrap';
 class Home extends Component {
   render() {
     return (
-      	<Row>
-      		<Col xs={2} md={1} />
-      		<Col xs={8} md={10}>
-      			<UncontrolledCarousel className="carousel" />
-      			<Cards />
-      		</Col>
-      		<Col xs={2} md={1}/>
-      	</Row>
+    	<Grid>
+	      	<Row>
+	      		<Col sm={0} xs={1} md={1} />
+	      		<Col sm={12} xs={10} md={10} >
+	      			<UncontrolledCarousel className="carousel" />
+	      			<Cards />
+	      		</Col>
+	      		<Col sm={0} xs={1} md={1} />
+	      	</Row>
+      	</Grid>
     );
   }
 }

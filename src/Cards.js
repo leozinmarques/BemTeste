@@ -6,7 +6,7 @@ class Cards extends Component {
 		return(
 			<Row className="show-grid">
 				<Col md={4}>
-					<h1>TESTANDO</h1>
+					<h1>TESTANDO</h1>					
 				</Col>
 				<Col md={4}>
 					<h1>TESTANDO</h1>
